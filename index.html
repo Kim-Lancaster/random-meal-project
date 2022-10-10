@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./resources/css/index.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <title>What's For Dinner</title>
+</head>
+<body>
+    <div class="center-container">
+        <div class="top">
+            <h1>Random Meal Decider</h1>
+            <h3>For when you are just too hungry to choose...</h3>
+            <h2>Pick a protein</h2>
+            <div class="protein-button-container">
+                <button id="chicken">Chicken</button>
+                <button id="beef">Beef</button>
+                <button id="pork">Pork</button>
+                <button id="fish">Fish</button>
+                <button id="vegi">Vegi</button>
+            </div> <!--End Protien-->
+        </div><!--End Top-->
+        <div class="bottom" id="bottom">
+            <div class="tab-container">
+                <ul class="recipe-tab">
+                    <li class="selected" id="front-tab">Index</li>
+                    <li class="food-tabs" id="recipe1">Recipe 1</li>
+                    <li class="food-tabs" id="recipe2">Recipe 2</li>
+                    <li class="food-tabs" id="recipe3">Recipe 3</li>
+                    <li class="food-tabs" id="recipe4">Recipe 4</li>
+                    <li class="food-tabs" id="recipe5">Recipe 5</li>
+                </ul>
+            </div>
+            <div class="card-body">
+                <div class="front-index-content">
+                    <div class="img-container">
+                        <div class="recipe-name" id="recipe-name1"></div>
+                        <img src="./resources/images/polaroid-frame-tape-transparent.png" alt="polaroid of food" class="image-1">
+                        <div id="food-image1"></div>
+                    </div>
+                    <div class="img-container">
+                        <div class="recipe-name" id="recipe-name2"></div>
+                        <img src="./resources/images/polaroid-frame-tape-transparent.png" alt="polaroid of food" class="image-2">
+                        <div id="food-image2"></div>
+                    </div>
+                    <div class="img-container">
+                        <div class="recipe-name" id="recipe-name3"></div>
+                        <img src="./resources/images/polaroid-frame-tape-transparent.png" alt="polaroid of food" class="image-3">
+                        <div id="food-image3"></div>
+                    </div>
+                    <div class="img-container">
+                        <div class="recipe-name" id="recipe-name4"></div>
+                        <img src="./resources/images/polaroid-frame-tape-transparent.png" alt="polaroid of food" class="image-4">
+                        <div id="food-image4"></div>
+                    </div>
+                    <div class="img-container">
+                        <div class="recipe-name" id="recipe-name5"></div>
+                        <img src="./resources/images/polaroid-frame-tape-transparent.png" alt="polaroid of food" class="image-5">
+                        <div id="food-image5"></div>
+                    </div>
+                </div>
+                <div class="hidden-recipe-content">
+                    <div class="recipe-header">
+                        <div class="dish-name"></div>
+                        <div class="image-container"></div>
+                    </div>
+                    <div class="ingredients"></div>
+                    <div class="intructions"></div>
+                </div> 
+            </div>
+        </div><!--Bottom-->
+    </div>
+    <script src="./resources/js/index.js"></script>
+</body>
+</html>
